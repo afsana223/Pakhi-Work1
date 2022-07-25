@@ -1,0 +1,4 @@
+array itaration
+problam solving-cheak vawels;
+
+FOR LOOP

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js validation</title>
+</head>
+<body>
+
+    <!-- form validation -->
+   <h2>JavaScript validation</h2>
+
+   <form name="form" onsubmit="return validform()" method="post" action="/action_page.js"  >
+    Name: <input type="text" name="fname">
+    <input type="submit" value="Submit">
+   </form>
+
+
+<!--validate numeric input  -->
+<p>please input a number between 1 to 10;</p>
+<input id="number">
+
+<button type="button" onclick="myfunction()">Submit</button>
+<p id="demo"></p>
+
+<!-- form validation -->
+
+<h2>JavaScript validation</h2>
+<form action="/action_page.js" method="post" >
+    <input type="text" name="fname" required>
+<input type="submit" value="Submit">
+</form>
+<p>If you click submit, without filling out the text field, your browser will display an error message.</p>
+
+<!-- change the color by onclick -->
+
+<h2 id="color">Change the heading by clicking button</h2>
+<button type="button" onclick="color()">click me</button>
+
+<!-- show and hide the text -->
+
+<p id="hide"> this is a text.this is a text this is a text.</p>
+
+<button type="button" onclick="show()">show text</button>
+<button type="button" onclick="hide()">Hide text</button>
+<!-- onclick -->
+<h2></h2>
+
+<!-- input fild  -->
+
+
+    
+<script src="variable-01.js"></script>
+</body>
+</html>
